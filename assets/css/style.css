@@ -1,0 +1,37 @@
+body {
+    background-color: #dedfdb; 
+}
+
+#questionItself {
+    font-size: 20px;
+}
+
+#checkAnswer {
+    font-style: italic;
+    color: #292c31;
+}
+
+h1, 
+h2 {
+    color: #313e40;
+}
+
+a {
+    color: #4b99a3;
+}
+
+a:hover {
+    color: #99a6bf;
+}
+
+.btn:focus, .btn:active, .btn:visited {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: #343a40;
+}
+
+#scoreFinal {
+    font-weight: bold;
+}
+
+

@@ -13,27 +13,25 @@ Coding Quiz Challenge
 <body>
     <!-- primary content -->
     <div id="container-fluid">
-        <!-- high scores -->
-        <div class="col text-left">
-            <a href="#" id="scoresHighView">View High Scores</a>
-        </div>
+
         <!-- timer -->
         <div id="timer" class="col text-right"></div>  
-        <b class="far fa-clock"></b> Time: <span id="timeRemaining">0</span>
+        <u class="far fa-clock"> Time: <span id="timeRemaining">0</span></u>
         <!-- Game Over -->
-        <div id="quizEnd" class="col text-right" style="display:none;">Time's Up! Game Over.</div>
+        <div id="quizEnd" style="display: none;">
+            Time's Up! Game Over.</div>
         <!-- main content -->
         <div id="ultimateDiv">
             <main class="col-md-8 mt-5">
                 <!-- quizHome -->
-                <div id="quizHome">
+                <div id="quizHome" class="m-1 justify-content-center">
                     <h1 class="font-weight-bold pl-4">Coding Quiz Challenge</h1>
                 <p class="p-4">Answer Javascript-related questions within a limited time frame. Incur a penalty of 10 seconds per incorrect answer. Good Luck!</p> 
                 <button type="button" id="startButton" class="btn btn-outline-primary m-4 align-center">Start Quiz</button>
                 </div>
                 <!-- questions -->
                 <div id="questionBox" style="display: none;">
-                    <p id="questionItself" class="justify-content-center font-weight-bold"></p>
+                    <p id="questionItself" class="pr-4 ml-1 pt-4 justify-content-center font-weight-bold"></p>
                     <div class="justify-content-center">
                         <p><button id="btn0" class="btn btn-dark"></button></p>
                         <p><button id="btn1" class="btn btn-dark"></button></p>
@@ -69,6 +67,12 @@ Coding Quiz Challenge
         </div>        
 </body>
 </head>
+<footer>
+            <!-- high scores -->
+            <div class="text-left">
+                <a href="#" id="scoresHighView">View High Scores</a>
+            </div>
+</footer>
 <!-- bootstrap ref -->
 <script src="./assets/js/script.js"> </script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -155,7 +155,7 @@ const questions = [
        quizEnd.style.display = "block";
    
        // show final score
-       scoreFinal.textContent = correctAns;
+       scoreFinal.textContent = answerGood;
    }
    
    // enter initial and store highscore in local storage
@@ -251,5 +251,4 @@ const questions = [
    scoreClear.addEventListener("click", function(){
        window.localStorage.removeItem("high scores");
        scoresHighList.innerHTML = "High Scores Cleared!";
-       scoresHighList.setAttribute("style", "font-family: 'Archivo', sans-serif; font-style: italic;")
    });
